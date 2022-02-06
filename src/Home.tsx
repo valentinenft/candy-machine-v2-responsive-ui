@@ -483,7 +483,7 @@ const Home = (props: HomeProps) => {
         <main>
             <MainContainer>
                 <WalletContainer>
-                    <Logo><a href="#" target="_blank" rel="noopener noreferrer"><img alt="" src="logo.png"/></a></Logo>
+                    <Logo><a href="#Home" target="_blank" rel="noopener noreferrer"><img alt="" src="logo.png"/></a></Logo>
 
                     <Wallet>
                         {wallet ?
