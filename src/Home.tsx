@@ -20,7 +20,7 @@ import {
 } from "./candy-machine";
 
 const cluster = process.env.REACT_APP_SOLANA_NETWORK!.toString();
-const decimals = process.env.REACT_APP_SPL_TOKEN_DECIMALS ? +process.env.REACT_APP_SPL_TOKEN_DECIMALS!.toString() : 9;
+const decimals = process.env.REACT_APP_SPL_TOKEN_DECIMALS ? +process.env.REACT_APP_SPL_TOKEN_DECIMALS!.toString() : 0;
 const splTokenName = process.env.REACT_APP_SPL_TOKEN_NAME ? process.env.REACT_APP_SPL_TOKEN_NAME.toString() : "TOKEN";
 
 const WalletContainer = styled.div`
